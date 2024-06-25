@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/round_logo"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logo_istic1" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_light"
+        android:textSize="20dp"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:text="Bienvenido"
+        />
+
+    <Button
+        android:id="@+id/btInscripcionExamenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:text="Inscripción a Exámenes"
+        android:backgroundTint="@color/button_color"
+        />
+
+    <Button
+        android:id="@+id/btMisInscripciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:text="Mis Inscripciones"
+        android:backgroundTint="@color/button_color"/>
+
+    <Button
+        android:id="@+id/btPerfilAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:text="Perfil Alumno"
+        android:backgroundTint="@color/button_color"/>
+
+    <Button
+        android:id="@+id/btAPIs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:text="APIs"
+        android:backgroundTint="@color/button_color"/>
+</LinearLayout>
